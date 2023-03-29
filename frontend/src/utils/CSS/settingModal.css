@@ -1,0 +1,26 @@
+.settingContainer {
+  top: 25%;
+  width: 20%;
+  height: 30%;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#userIcon1 {
+  height: 50px;
+  margin: 0 auto;
+}
+.user1 {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.imageWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

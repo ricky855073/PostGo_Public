@@ -1,0 +1,20 @@
+.postContainer {
+  width: 25%;
+  height: 100%;
+
+  text-align: center;
+  flex-direction: column;
+  background-color: #e4ebf5;
+  justify-content: center;
+  align-items: center;
+}
+.render {
+  color: black;
+  margin-top: 70%;
+}
+.margin {
+  top: 50%;
+  background-color: aquamarine;
+  height: 20%;
+  width: auto;
+}

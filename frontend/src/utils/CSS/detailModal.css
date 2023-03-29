@@ -1,0 +1,17 @@
+.detailContainer {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  /* background-color: rgb(204, 201, 201); */
+  background-color: #E4EBF5;
+  /* background-color: #262729; */
+  /* var(--greyLight-1) */
+  color: black;
+  justify-content: space-around;
+  align-items: center;
+}
+.nickName {
+  margin-top: 10%;
+}

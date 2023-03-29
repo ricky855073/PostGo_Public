@@ -1,0 +1,54 @@
+.navBarContainer {
+  justify-content: center;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: rgb(252, 252, 252); */
+  background-color: white;
+  min-height: 5em;
+  box-shadow: 0px 0px 3px 2px rgb(204, 201, 201);
+  /* visibility: hidden; */
+  z-index: 1;
+  vertical-align: middle;
+}
+.titleContainer {
+  margin-left: 4%;
+  font-size: larger;
+  /* color: rgb(72, 83, 231); */
+  color: rgb(72, 83, 231);
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 0;
+  text-decoration: none;
+}
+.titleContainer:active {
+  color: gray;
+}
+.wrapper {
+  position: absolute;
+  /* top: 40%; */
+  right: 0;
+  transform: translate(0, 50%);
+  margin-right: 15%;
+}
+.user {
+  margin-bottom: 3.3%;
+  right: 0;
+  position: absolute;
+  transform: translate(0, 50%);
+  margin-right: 5%;
+  height: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+}
+#userIcon {
+  height: 100%;
+  aspect-ratio: 1/1;
+}

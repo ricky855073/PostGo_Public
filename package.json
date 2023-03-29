@@ -1,0 +1,20 @@
+{
+  "name": "wpfinal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "cypress": "^11.2.0"
+  },
+  "scripts": {
+    "frontend": "cd ./frontend && yarn start",
+    "backend": "cd ./backend && python3 app.py"
+  },
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "yarn": "^1.22.19"
+  }
+}

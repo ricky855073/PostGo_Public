@@ -1,0 +1,12 @@
+flask
+cpython
+flask_restful
+flask_bcrypt
+flask_cors
+paramiko
+requests
+sshtunnel
+graphene
+PyJWT
+psycopg2-binary
+nsfw-detector
